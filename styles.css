@@ -1,0 +1,105 @@
+body {
+    font-family: 'Sora', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que a altura ocupe pelo menos a altura da tela inteira */
+}
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Aumentei o tamanho do logo */
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f8f8f8;
+}
+
+.headline {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sub-headline {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 120px;  /* Aumentei as dimensões */
+    height: 120px; /* Aumentei as dimensões */
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto; /* Mantém o rodapé na parte inferior da página */
+    box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
